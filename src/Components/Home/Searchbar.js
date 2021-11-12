@@ -6,7 +6,7 @@ const Searchbar = ({ searchHandler, searchTerm }) => {
   return (
     <div className="search-section">
       <span className="p-input-icon-left">
-        <i className="pi pi-search" />
+        <i className="pi pi-search" id="search-icon"/>
         <InputText
           type="search"
           value={searchTerm}
