@@ -20,3 +20,7 @@ span.p-chip-text{
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+#search-icon{
+  cursor: pointer;
+}
